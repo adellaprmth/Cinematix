@@ -1,0 +1,138 @@
+body {
+    font-family: Rubik, sans-serif;
+}
+
+.header-menu {
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    margin-bottom: 3em;
+}
+
+.navbar {
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-brand {
+    margin-left: 1em;
+}
+
+.nav {
+    flex: auto;
+    margin-right: 2em;
+    position: relative;
+}
+
+.nav-link {
+    padding-top: .8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #f7f9fc;
+    margin-left: 1.5em;
+    border-radius: 13px;
+    height: 3em;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: #0E3557;
+}
+
+.form-group {
+    margin-bottom: 0;
+    float: right;
+}
+
+.has-search {
+    margin-left: 2em;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.has-search .form-control {
+    padding-left: 2.5rem;
+    background-color: #f7f9fc;
+    border: 1px solid transparent;
+    height: 2.5em;
+    border-radius: 13px;
+    color: #0E3557;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    pointer-events: none;
+    color: #0E3557;
+}
+
+.helper {
+    display: inline-block;
+}
+
+.helper .btn {
+    background-color: #0E3557;
+    color: white;
+    margin-left: 2em;
+    border: 1px transparent;
+    font-size: 1.2em;
+    width: 5em;
+    border-radius: 13px;
+}
+
+.helper .btn:hover {
+    background-color: #f7f9fc;
+    color: black;
+    margin-left: 2em;
+}
+
+.card {
+    margin-top: 2rem;
+    margin-bottom: .5em;
+    display: inline-block;
+    position: relative;
+}
+
+.card-body {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em .4em 0 .4em;
+}
+
+.movies-title {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.movies-year {
+    padding-bottom: .7em;
+}
+
+footer {
+    background-color: #0E3557;
+    margin-top: 1em;
+    padding-left: 3.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+footer small {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
